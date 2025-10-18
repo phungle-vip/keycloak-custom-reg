@@ -128,8 +128,7 @@ public class CustomRegResource {
         PasswordCredentialModel hashedCredential = hashProvider.encodedCredential(req.password(), iterations);
 
         // This is correct for Keycloak 26.x
-        user.credentialManager().updateStoredCredential(hashedCredential);
-
+        user.credentialManager().createStoredCredential(hashedCredential);
         // Emit register event
         new EventBuilder(realm, session, session.getContext().getConnection())
                 .event(EventType.REGISTER)
