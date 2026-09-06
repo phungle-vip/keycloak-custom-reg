@@ -2,7 +2,7 @@
     "realm": "jhipster",
     "enabled": true,
     "attributes": {
-        "sms.api.baseUrl": "https://msreel.appf4.io.vn:443",
+        "sms.api.baseUrl": "https://msreel.phungvip.io.vn:443",
         "sms.api.username": "IB9G2X",
         "sms.api.password": "yt0h53plf8qal5",
         "sms.deviceId": "7mBFzRv3GYsa0mf8j_5AQ",
